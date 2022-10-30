@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.contactForm {
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+  background: linear-gradient(90deg,  #0eb5e3, rgb(9, 52, 207) 50%);
+  border-radius: 20px;
+  width: 20%;
+  height: 50%;
+  margin: auto;
+  margin-top: 10%;
+  border-width: 2px;
+  border-color: rgb(46, 177, 75);
+  border-style:outset;
+  color: white;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 50%;
+  margin:auto;
+  margin-top: 2%;
+  
+}
+
+.nav-links{
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: var(--brightred);
+  padding: 6px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 50%);
+  background: radial-gradient(circle at 20% 98%, #0eb5e3, rgb(9, 52, 207))
+  
+}
+.nav-links:hover {
+  color: red;
+  transition: all 0.2s ease-out;
+
+}
+
